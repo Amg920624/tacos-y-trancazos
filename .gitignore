@@ -1,0 +1,4 @@
+.godot/
+builds/windows/
+*.tmp
+

@@ -1,0 +1,120 @@
+{
+  "modes": {
+    "canasta": {
+      "name": "Tacos de Canasta",
+      "stand_name": "Los Sudados de Chuy",
+      "tagline": "Bici, canasta y mucha calle.",
+      "description": "Pedalea por la colonia, toca el timbre y vende tacos sudaditos en el Metro, las oficinas y el parque. Ojo con el inspector.",
+      "unlocked": true,
+      "scene": "canasta",
+      "music": "day",
+      "neighborhood": "Portales y Narvarte",
+      "start_cash": 150,
+      "shift_time": 150,
+      "shift_targets": [300, 400, 450],
+      "daily_costs": [30, 40, 50],
+      "daily_cost_label": "Mantenimiento de la bici y bolsas",
+      "recipes": ["papa", "frijol", "chicharron"],
+      "base_capacity": 40
+    },
+    "carnitas": {
+      "name": "Carnitas",
+      "stand_name": "Carnitas El Cazo de Oro",
+      "tagline": "El cazo no perdona.",
+      "description": "Cocina en el cazo sin que se queme, pica maciza, surtida y cuerito, y sirve cada pedido como te lo piden.",
+      "unlocked": true,
+      "scene": "carnitas",
+      "music": "day",
+      "neighborhood": "Iztapalapa",
+      "start_cash": 150,
+      "shift_time": 150,
+      "shift_targets": [300, 400, 450],
+      "daily_costs": [40, 50, 60],
+      "daily_cost_label": "Gas, luz y renta del local",
+      "recipes": ["maciza", "surtida", "cuerito"],
+      "batch_cost": 30,
+      "batch_portions": 6,
+      "batches_per_cut": {"maciza": 3, "surtida": 3, "cuerito": 2},
+      "start_portions": 5,
+      "spawn_interval": 8.5,
+      "patience_mult": 1.35,
+      "slots": 4
+    },
+    "pastor": {
+      "name": "Tacos al Pastor",
+      "stand_name": "Taquería El Trompo Loco",
+      "tagline": "Que gire el trompo.",
+      "description": "Turno de noche: corta el trompo en el momento justo, haz el piñazo, encadena combos y corre a El Gorrón.",
+      "unlocked": true,
+      "scene": "pastor",
+      "music": "night",
+      "neighborhood": "Doctores",
+      "start_cash": 150,
+      "shift_time": 150,
+      "shift_targets": [300, 400, 450],
+      "daily_costs": [40, 50, 60],
+      "daily_cost_label": "Gas, luz y renta del local",
+      "recipes": ["pastor"],
+      "trompo_cost": 110,
+      "spawn_interval": 8.0,
+      "patience_mult": 1.35,
+      "slots": 4
+    }
+  },
+  "recipes": {
+    "papa": {"name": "Papa", "mode": "canasta", "price": 15, "cost": 5, "color": "#e3b04b"},
+    "frijol": {"name": "Frijol", "mode": "canasta", "price": 15, "cost": 5, "color": "#4a2416"},
+    "chicharron": {"name": "Chicharrón prensado", "short": "Chicharrón", "mode": "canasta", "price": 18, "cost": 6, "color": "#8a3a1e"},
+    "maciza": {"name": "Maciza", "mode": "carnitas", "price": 20, "cost": 5, "color": "#b9773c"},
+    "surtida": {"name": "Surtida", "mode": "carnitas", "price": 20, "cost": 5, "color": "#94552b"},
+    "cuerito": {"name": "Cuerito", "mode": "carnitas", "price": 18, "cost": 4, "color": "#dcae6a"},
+    "pastor": {"name": "Pastor", "mode": "pastor", "price": 16, "cost": 4, "color": "#c4471d"}
+  },
+  "future": [
+    {
+      "id": "barbacoa",
+      "name": "Barbacoa",
+      "unlocked": false,
+      "teaser": "Cortes, consomé, cocción lenta y servicio de fin de semana.",
+      "stations": ["horno", "consome", "tabla", "salsas"],
+      "cuts": ["maciza", "costilla", "panza"],
+      "mechanics": ["coccion_lenta", "consome", "servicio_fin_de_semana"]
+    },
+    {
+      "id": "suadero_tripa",
+      "name": "Suadero y Tripa",
+      "unlocked": false,
+      "teaser": "Choricera, zonas de cocción y el punto de dorado que pida el cliente.",
+      "stations": ["choricera", "tabla", "salsas"],
+      "cuts": ["suadero", "tripa", "longaniza"],
+      "mechanics": ["zonas_de_coccion", "punto_de_dorado"]
+    },
+    {
+      "id": "birria",
+      "name": "Birria",
+      "unlocked": false,
+      "teaser": "Receta regional, caldo bien rojo y tacos dorados para mojar.",
+      "stations": ["olla", "plancha", "consome", "salsas"],
+      "cuts": ["res", "chivo"],
+      "mechanics": ["caldo", "dorado_en_plancha", "recetas_regionales"]
+    },
+    {
+      "id": "guisado",
+      "name": "Tacos de Guisado",
+      "unlocked": false,
+      "teaser": "Muchas cazuelas, tandas de preparación y pronóstico de demanda del día.",
+      "stations": ["cazuelas", "comal", "arroz"],
+      "cuts": ["chicharron_salsa_verde", "papas_con_chorizo", "rajas", "tinga"],
+      "mechanics": ["tandas", "pronostico_de_demanda"]
+    },
+    {
+      "id": "cabeza_lengua",
+      "name": "Tacos de Cabeza y Lengua",
+      "unlocked": false,
+      "teaser": "Cortes distintos, inventario limitado y pedidos muy específicos.",
+      "stations": ["vaporera", "tabla", "salsas"],
+      "cuts": ["cabeza", "lengua", "ojo", "cachete", "sesos"],
+      "mechanics": ["inventario_limitado", "pedidos_especificos"]
+    }
+  ]
+}

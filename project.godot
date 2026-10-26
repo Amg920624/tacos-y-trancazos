@@ -1,0 +1,48 @@
+; Engine configuration file.
+; Tacos & Trancazos — De la banqueta a la gloria.
+
+config_version=5
+
+[application]
+
+config/name="Tacos & Trancazos"
+config/description="De la banqueta a la gloria. Arcade de taquerías chilangas."
+config/version="1.0.0"
+run/main_scene="res://scenes/main_menu.tscn"
+config/features=PackedStringArray("4.7", "GL Compatibility")
+config/icon="res://icon.svg"
+
+[autoload]
+
+DB="*res://scripts/gameplay/recipe_database.gd"
+Economy="*res://scripts/core/economy_manager.gd"
+Aura="*res://scripts/core/aura_manager.gd"
+Upgrades="*res://scripts/gameplay/upgrade_manager.gd"
+EventManager="*res://scripts/core/event_manager.gd"
+AudioManager="*res://scripts/core/audio_manager.gd"
+SaveManager="*res://scripts/core/save_manager.gd"
+GameManager="*res://scripts/core/game_manager.gd"
+
+[display]
+
+window/size/viewport_width=640
+window/size/viewport_height=360
+window/size/window_width_override=1280
+window/size/window_height_override=720
+window/stretch/mode="canvas_items"
+window/stretch/aspect="keep"
+
+[gui]
+
+theme/default_font_antialiasing=1
+
+[internationalization]
+
+locale/fallback="es"
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/canvas_textures/default_texture_filter=0
+environment/defaults/default_clear_color=Color(0.1, 0.07, 0.06, 1)

@@ -1,0 +1,43 @@
+{
+  "upgrades": [
+    {"id": "canasta_grande", "name": "Canasta más grande", "mode": "canasta", "cost": [150, 220], "max_level": 2, "aura_required": 0,
+     "description": "+15 tacos de capacidad por nivel.", "effects": [{"stat": "basket_capacity", "per_level": 15}]},
+    {"id": "bici_rapida", "name": "Bici con cambios", "mode": "canasta", "cost": [130, 200], "max_level": 2, "aura_required": 0,
+     "description": "+15% de velocidad por nivel.", "effects": [{"stat": "bike_speed", "per_level": 0.15}]},
+    {"id": "timbre_pro", "name": "Timbre de campeonato", "mode": "canasta", "cost": [90, 150], "max_level": 2, "aura_required": 0,
+     "description": "El timbre se oye más lejos y se recarga más rápido.", "effects": [{"stat": "bell_radius", "per_level": 35}, {"stat": "bell_cooldown", "per_level": -0.5}]},
+    {"id": "letrero", "name": "Letrero pintado a mano", "mode": "canasta", "cost": [120], "max_level": 1, "aura_required": 0,
+     "description": "Llegan clientes aunque no toques el timbre: +35% de demanda.", "effects": [{"stat": "demand", "per_level": 0.35}]},
+    {"id": "permiso_metro", "name": "Permiso de vía pública (Metro)", "mode": "canasta", "cost": [200], "max_level": 1, "aura_required": 100,
+     "description": "Vende en la salida del Metro sin broncas con el inspector.", "effects": [{"stat": "metro_permit", "per_level": 1}]},
+    {"id": "aislante", "name": "Manta térmica y plástico", "mode": "canasta", "cost": [100], "max_level": 1, "aura_required": 0,
+     "description": "Los tacos se enfrían 50% más lento.", "effects": [{"stat": "insulation", "per_level": 0.5}]},
+
+    {"id": "cazo_grande", "name": "Cazo de cobre grande", "mode": "carnitas", "cost": [160, 240], "max_level": 2, "aura_required": 0,
+     "description": "+3 porciones por cada tanda del cazo.", "effects": [{"stat": "batch_portions", "per_level": 3}]},
+    {"id": "cuchillo_afilado", "name": "Cuchillo bien afilado", "mode": "carnitas", "cost": [120, 180], "max_level": 2, "aura_required": 0,
+     "description": "Picas y cocinas 20% más rápido por nivel.", "effects": [{"stat": "prep_speed", "per_level": 0.2}]},
+    {"id": "refri", "name": "Refri más grande", "mode": "carnitas", "cost": [140], "max_level": 1, "aura_required": 0,
+     "description": "+1 tanda de carne de cada corte por turno.", "effects": [{"stat": "extra_batches", "per_level": 1}]},
+    {"id": "quemador", "name": "Quemador eficiente", "mode": "carnitas", "cost": [130], "max_level": 1, "aura_required": 0,
+     "description": "El fuego sube 35% más lento y la zona buena es más ancha.", "effects": [{"stat": "heat_control", "per_level": 0.35}]},
+
+    {"id": "trompo_pro", "name": "Trompo mejorado", "mode": "pastor", "cost": [180, 260], "max_level": 2, "aura_required": 0,
+     "description": "+15% de tolerancia en el corte por nivel.", "effects": [{"stat": "slice_tolerance", "per_level": 0.15}]},
+    {"id": "corte_veloz", "name": "Cuchillo de taquero pro", "mode": "pastor", "cost": [130], "max_level": 1, "aura_required": 0,
+     "description": "Cortas más rápido entre taco y taco.", "effects": [{"stat": "slice_speed", "per_level": 0.35}]},
+    {"id": "control_fuego", "name": "Control de fuego", "mode": "pastor", "cost": [120], "max_level": 1, "aura_required": 0,
+     "description": "El trompo tarda 40% más en quemarse.", "effects": [{"stat": "heat_control", "per_level": 0.4}]},
+    {"id": "combo_mayor", "name": "Fama de la cuadra", "mode": "pastor", "cost": [170], "max_level": 1, "aura_required": 150,
+     "description": "El combo máximo sube de x2 a x2.5.", "effects": [{"stat": "combo_cap", "per_level": 2}]},
+    {"id": "firulais", "name": "Firulais, perro guardián", "mode": "pastor", "cost": [150], "max_level": 1, "aura_required": 0,
+     "description": "Le ladra y muerde a El Gorrón. El puesto recibe la mitad de daño.", "effects": [{"stat": "guard_dog", "per_level": 1}]},
+
+    {"id": "mostrador", "name": "Mostrador extendido", "mode": ["carnitas", "pastor"], "cost": [200], "max_level": 1, "aura_required": 0,
+     "description": "Un lugar más en el mostrador para atender clientes.", "effects": [{"stat": "extra_slot", "per_level": 1}]},
+    {"id": "bocina", "name": "Bocina con cumbias", "mode": "all", "cost": [110], "max_level": 1, "aura_required": 0,
+     "description": "Con musiquita la gente espera: clientes 20% más pacientes.", "effects": [{"stat": "patience", "per_level": 0.2}]},
+    {"id": "tortillas_mano", "name": "Tortillas hechas a mano", "mode": "all", "cost": [180], "max_level": 1, "aura_required": 150,
+     "description": "Tacos 15% más caros y nadie se queja.", "effects": [{"stat": "price", "per_level": 0.15}]}
+  ]
+}

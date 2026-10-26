@@ -1,0 +1,29 @@
+{
+  "happy": ["¡Esos tacos están de campeonato!", "¡Uff, qué ricos!", "¡Mañana vuelvo, jefe!", "¡Eso, mi rey!", "¡Qué chulada de tacos!", "¡Ahora sí ya la hice!"],
+  "ok": ["Gracias, jefe.", "Ahí está lo de los tacos.", "Va, gracias.", "Pásele la feria."],
+  "angry": ["¡No manche, llevo media hora esperando!", "¡Mejor me voy a los de enfrente!", "¡Ya me dio hambre de coraje!", "¡Qué lento, joven!"],
+  "wrong": ["¡Yo no pedí esto, jefe!", "¿Y esto qué es o qué?", "¡Le pedí otra cosa!"],
+  "garnish_wrong": ["Le dije de otra salsa...", "¿Y la verdura, apá?", "Bueno, ya qué, me los como."],
+  "short": ["¿Nomás esos? Le pedí más.", "Faltan tacos, jefe."],
+  "cold": ["Están bien fríos, jefe.", "Uy, ya se enfriaron..."],
+  "warm": ["¡Calientitos, como deben ser!", "¡Sudaditos y calientes!"],
+  "mismatch": ["Bueno, ya qué... deme de esos.", "No eran de esos, pero va."],
+  "far": ["¡Oiga, joven! ¡No se vaya!", "¡Espéreme, canastero!"],
+  "bell": ["¡Tacos, tacos de canasta!", "¡Hay de papa, frijol y chicharrón!", "¡Sudaditos, calientitos!", "¡Lleve sus tacos, lleve!"],
+  "inspector_warning": ["¡Joven! ¿Tiene permiso para vender aquí?", "¡Alto ahí, canastero!"],
+  "inspector_caught": ["Va a tener que pagar su multa, joven.", "Aquí está su papelito... la multa."],
+  "inspector_escape": ["¡Ya ni la amuelas, muchacho!", "¡Otro día te agarro!"],
+  "inspector_ok": ["Todo en orden, joven. Siga.", "Ah, trae permiso. Muy bien."],
+  "gorron_enter": ["¿Me regala uno, jefe? Al cabo ni se nota.", "¡Nomás vengo a probar!", "Uno de cortesía, ¿no?"],
+  "gorron_hit": ["¡Ay, mi cabeza!", "¡Uy, ese limón traía coraje!", "¡No se enoje, jefe!"],
+  "gorron_flee": ["¡Ya me voy, ya me voy!", "¡Ahí nos vidrios!"],
+  "gorron_win": ["¡Gracias por los taquitos, jefe!", "¡Ahí se ven, giles!"],
+  "critic_reveal": "¡Era el crítico de la Guía Comal de Oro!",
+  "critic_reviews": {
+    "3": ["Una experiencia que redefine la tortilla.", "Lloré. Y no fue por la salsa.", "El mejor taco de la ciudad, y no es exageración."],
+    "2": ["Honestos, sabrosos y sin pretensiones. Volvería.", "Buen taco, buena salsa, buena vibra."],
+    "1": ["La salsa salvó la noche. Lo demás... pues ahí la lleva.", "Tiene potencial, como mi sobrino."],
+    "0": ["Me equivoqué de puesto. O de vida.", "Prefiero el sándwich de mi oficina."]
+  },
+  "shift_start": ["¡A vender, que el hambre no espera!", "¡Que empiecen los tacos y los trancazos!", "¡Arriba ese ánimo, taquero!"]
+}

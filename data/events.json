@@ -1,0 +1,108 @@
+{
+  "events": [
+    {
+      "id": "inspeccion",
+      "name": "Inspección municipal",
+      "modes": ["canasta"],
+      "trigger": {"type": "condition"},
+      "cooldown": 25,
+      "duration": 40,
+      "reward_aura": 10,
+      "penalty_aura": -15,
+      "banner": "¡AGUAS! ¡Viene el inspector!",
+      "success_text": "Te moviste a tiempo.",
+      "failure_text": "Te cacharon en zona restringida."
+    },
+    {
+      "id": "salida_metro",
+      "name": "Salida masiva del Metro",
+      "modes": ["canasta"],
+      "trigger": {"type": "scheduled", "times_by_shift": [[0.55], [0.3, 0.7], [0.25, 0.6]]},
+      "cooldown": 20,
+      "duration": 20,
+      "reward_aura": 25,
+      "penalty_aura": 0,
+      "banner": "¡Salida masiva del Metro! Mucha gente con hambre.",
+      "success_text": "¡Le vendiste a medio vagón!",
+      "failure_text": "Se fue la gente sin tacos."
+    },
+    {
+      "id": "domingo_carnitas",
+      "name": "Domingo de Carnitas",
+      "modes": ["carnitas"],
+      "trigger": {"type": "scheduled", "times_by_shift": [[], [], [0.3]]},
+      "cooldown": 30,
+      "duration": 30,
+      "reward_aura": 60,
+      "penalty_aura": -25,
+      "banner": "¡DOMINGO DE CARNITAS! Llegó la familia entera.",
+      "success_text": "¡Domingo de Gloria!",
+      "failure_text": "La familia se fue a la barbacoa de enfrente."
+    },
+    {
+      "id": "hora_pico",
+      "name": "Salida del concierto",
+      "modes": ["pastor"],
+      "trigger": {"type": "scheduled", "times_by_shift": [[0.62], [0.5], [0.4]]},
+      "cooldown": 20,
+      "duration": 25,
+      "reward_aura": 40,
+      "penalty_aura": -20,
+      "banner": "¡Salió el concierto! Hora pico de tacos.",
+      "success_text": "¡Aguantaste la hora pico!",
+      "failure_text": "Se te juntó la clientela."
+    },
+    {
+      "id": "gorron",
+      "name": "El Gorrón",
+      "modes": ["pastor"],
+      "trigger": {"type": "scheduled", "times_by_shift": [[0.3], [0.25, 0.72], [0.2, 0.55, 0.85]]},
+      "cooldown": 8,
+      "duration": 35,
+      "reward_aura": 40,
+      "penalty_aura": -25,
+      "banner": "¡Llegó El Gorrón! Defiende el puesto (K limón · J trapazo).",
+      "success_text": "¡Ahí te ves, Gorrón!",
+      "failure_text": "El Gorrón se fue con la panza llena."
+    },
+    {
+      "id": "cliente_dificil",
+      "name": "Clienta exigente",
+      "modes": ["carnitas", "pastor"],
+      "trigger": {"type": "random", "min_t": 0.15, "max_t": 0.8, "chance_per_sec": 0.025, "shifts": [1, 2], "max_per_shift": 1},
+      "cooldown": 30,
+      "duration": 45,
+      "reward_aura": 30,
+      "penalty_aura": -15,
+      "banner": "Llegó una clienta exigente... no la hagas enojar.",
+      "success_text": "¡La señora quedó encantada!",
+      "failure_text": "La señora te va a quemar en redes."
+    },
+    {
+      "id": "sin_tortillas",
+      "name": "Se acabaron las tortillas",
+      "modes": ["carnitas", "pastor"],
+      "trigger": {"type": "random", "min_t": 0.2, "max_t": 0.85, "chance_per_sec": 0.02, "shifts": [1, 2], "max_per_shift": 1},
+      "cooldown": 30,
+      "duration": 15,
+      "reward_aura": 20,
+      "penalty_aura": -10,
+      "banner": "¡Se acabaron las tortillas! Calienta más en el comal (E).",
+      "success_text": "¡Tortillas al rescate!",
+      "failure_text": "Tardaste un montón con las tortillas."
+    },
+    {
+      "id": "critico",
+      "name": "Crítico gastronómico",
+      "modes": ["canasta", "carnitas", "pastor"],
+      "trigger": {"type": "scheduled", "times_by_shift": [[], [0.3], []]},
+      "cooldown": 999,
+      "duration": 80,
+      "reward_aura": 0,
+      "penalty_aura": 0,
+      "banner": "",
+      "success_text": "",
+      "failure_text": ""
+    }
+  ]
+}

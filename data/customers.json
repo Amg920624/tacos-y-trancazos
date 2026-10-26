@@ -1,0 +1,74 @@
+{
+  "archetypes": [
+    {
+      "id": "oficinista",
+      "name": "Godín de oficina",
+      "weight": {"canasta": 3, "carnitas": 2, "pastor": 2},
+      "patience": 20,
+      "tip": 0.10,
+      "speed": 40,
+      "look": {"shirt": "#eef0f2", "pants": "#2b3a55", "acc": "tie", "acc_color": "#b3261e"},
+      "lines": ["¡Jefe! Écheme {qty} de {item}.", "Rápido, que me checa el jefe.", "Tengo quince minutos de comida, carnal.", "¿Aceptan vales? Es broma, aquí está."]
+    },
+    {
+      "id": "estudiante",
+      "name": "Estudiante",
+      "weight": {"canasta": 3, "carnitas": 2, "pastor": 3},
+      "patience": 22,
+      "tip": 0.0,
+      "speed": 44,
+      "look": {"shirt": "#3d6fb6", "pants": "#3a3a48", "acc": "backpack", "acc_color": "#e76f24"},
+      "lines": ["¿A cómo los de {item}, carnal?", "Unos de {item} pa' aguantar el examen.", "Con todo, que hoy hay parcial.", "Me los da de {item}, porfa."]
+    },
+    {
+      "id": "taxista",
+      "name": "Taxista",
+      "weight": {"canasta": 2, "carnitas": 2, "pastor": 2},
+      "patience": 16,
+      "tip": 0.15,
+      "speed": 42,
+      "look": {"shirt": "#d6c7a1", "pants": "#4b3b2a", "acc": "cap", "acc_color": "#e4007c"},
+      "lines": ["Rapidito, que traigo el taxi en doble fila.", "Échele de la que pica, jefe.", "{qty} de {item}, pa' llevar en el camino."]
+    },
+    {
+      "id": "repartidor",
+      "name": "Repartidor",
+      "weight": {"canasta": 2, "carnitas": 1, "pastor": 2},
+      "patience": 14,
+      "tip": 0.05,
+      "speed": 52,
+      "look": {"shirt": "#2a9d8f", "pants": "#22333b", "acc": "helmet", "acc_color": "#f4a261"},
+      "lines": ["Voy tarde con un pedido, ¡aviéntemelos!", "Pa' llevar, porfa, que me ganan.", "{qty} de {item} y me voy volando."]
+    },
+    {
+      "id": "cliente_fiel",
+      "name": "Cliente de siempre",
+      "weight": {"canasta": 1, "carnitas": 2, "pastor": 2},
+      "patience": 28,
+      "tip": 0.20,
+      "speed": 34,
+      "look": {"shirt": "#1f7a3a", "pants": "#5a4632", "acc": "mustache", "acc_color": "#2e1d12"},
+      "lines": ["¡Lo de siempre, jefe!", "Aquí desde que abrió, ¿eh?", "Écheme {qty} de {item}, como siempre."]
+    },
+    {
+      "id": "exigente",
+      "name": "Señora exigente",
+      "weight": {"canasta": 1, "carnitas": 1, "pastor": 1},
+      "patience": 14,
+      "tip": 0.35,
+      "speed": 36,
+      "look": {"shirt": "#9b2c6e", "pants": "#3b2440", "acc": "purse", "acc_color": "#f2c14e", "hair_long": true},
+      "lines": ["Bien servidos, ¿eh? Que lo vea.", "¿Seguro que eso es {item}? A ver...", "Y rápido, joven, que tengo prisa."]
+    },
+    {
+      "id": "critico",
+      "name": "Cliente misterioso",
+      "weight": {"canasta": 0, "carnitas": 0, "pastor": 0},
+      "patience": 24,
+      "tip": 0.0,
+      "speed": 36,
+      "look": {"shirt": "#6b6f76", "pants": "#2f3136", "acc": "glasses", "acc_color": "#111111"},
+      "lines": ["Lo que usted recomiende, joven.", "Sorpréndame.", "{qty} de {item}, por favor."]
+    }
+  ]
+}
